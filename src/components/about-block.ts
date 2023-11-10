@@ -2,7 +2,7 @@
 // import '@polymer/iron-icon';
 import { css, html } from 'lit';
 import { customElement } from 'lit/decorators.js';
-import { openVideoDialog } from '../store/ui/actions';
+// import { openVideoDialog } from '../store/ui/actions';
 import { aboutBlock } from '../utils/data';
 // TODO: enable imports
 // import '../utils/icons';
@@ -67,23 +67,7 @@ export class AboutBlock extends ThemedElement {
       <div class="container">
         <div>
           <h1 class="container-title">${aboutBlock.title}</h1>
-          <p>${aboutBlock.callToAction.featuredSessions.description}</p>
-          <a
-            href="${aboutBlock.callToAction.featuredSessions.link}"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <paper-button class="animated icon-right">
-              <span class="cta-label">${aboutBlock.callToAction.featuredSessions.label}</span>
-              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-            </paper-button>
-          </a>
-
-          <p>${aboutBlock.callToAction.howItWas.description}</p>
-          <paper-button class="animated icon-right" @click="${this.playVideo}">
-            <span>${aboutBlock.callToAction.howItWas.label}</span>
-            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-          </paper-button>
+          <p>${aboutBlock.description}</p>
         </div>
 
         <div class="statistics-block">
@@ -112,10 +96,10 @@ export class AboutBlock extends ThemedElement {
   }
 
   private playVideo() {
-    openVideoDialog({
-      title: aboutBlock.callToAction.howItWas.label,
-      youtubeId: aboutBlock.callToAction.howItWas.youtubeId,
-    });
+    // openVideoDialog({
+    //   title: aboutBlock.callToAction.howItWas.label,
+    //   youtubeId: aboutBlock.callToAction.howItWas.youtubeId,
+    // });
   }
 }
 
