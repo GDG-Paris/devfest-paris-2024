@@ -11,4 +11,15 @@ export const firebaseApp = initializeApp({
   appId: 'APP_ID',
   measurementId: 'G-MEASUREMENT_ID',
 });
+
+// export const firebaseApp = initializeApp({
+//   apiKey: "AIzaSyASUpEeCtavfHPoXLS-yOpEKhiV3UcIWLc",
+//   authDomain: "devfest-paris-2024.firebaseapp.com",
+//   databaseURL: "https://devfest-paris-2024-default-rtdb.europe-west1.firebasedatabase.app",
+//   projectId: "devfest-paris-2024",
+//   storageBucket: "devfest-paris-2024.appspot.com",
+//   messagingSenderId: "317768888724",
+//   appId: "1:317768888724:web:cda0f6a48e982b3af6df81",
+//   measurementId: "G-2ZPQ3PTSRR"
+// })
 export const db = getFirestore(firebaseApp);

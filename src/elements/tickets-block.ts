@@ -18,6 +18,8 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment positioning">
         :host {
           display: block;
+          background: var(--default-primary-color);
+          color: #fff;
         }
 
         .tickets-wrapper {
@@ -98,7 +100,6 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
           margin: 16px auto 0;
           max-width: 480px;
           font-size: 14px;
-          color: var(--secondary-text-color);
         }
 
         .actions {

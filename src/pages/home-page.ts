@@ -20,7 +20,7 @@ import { firebaseApp } from '../firebase';
 import { store } from '../store';
 import { ReduxMixin } from '../store/mixin';
 import { queueSnackbar } from '../store/snackbars';
-import { openVideoDialog } from '../store/ui/actions';
+// import { openVideoDialog } from '../store/ui/actions';
 import {
   aboutBlock,
   buyTicket,
@@ -250,13 +250,13 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         <fork-me-block></fork-me-block>
       </template>
       <about-block></about-block>
-      <speakers-block></speakers-block>
-      <subscribe-block></subscribe-block>
+      <!--<speakers-block></speakers-block>-->
+      <!--<subscribe-block></subscribe-block>-->
       <tickets-block id="tickets-block"></tickets-block>
       <gallery-block></gallery-block>
-      <about-organizer-block></about-organizer-block>
-      <featured-videos></featured-videos>
-      <latest-posts-block></latest-posts-block>
+      <!--<about-organizer-block></about-organizer-block>-->
+      <!--<featured-videos></featured-videos>-->
+      <!--<latest-posts-block></latest-posts-block>-->
       <map-block></map-block>
       <partners-block></partners-block>
       <footer-block></footer-block>
@@ -278,10 +278,10 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   private showForkMeBlock: boolean = false;
 
   private playVideo() {
-    openVideoDialog({
-      title: this.aboutBlock.callToAction.howItWas.label,
-      youtubeId: this.aboutBlock.callToAction.howItWas.youtubeId,
-    });
+    // openVideoDialog({
+    //   title: this.aboutBlock.callToAction.howItWas.label,
+    //   youtubeId: this.aboutBlock.callToAction.howItWas.youtubeId,
+    // });
   }
 
   private scrollToTickets() {
