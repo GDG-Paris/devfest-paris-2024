@@ -342,9 +342,9 @@
     {
       "available": true,
       "currency": "€",
-      "info": "Requires valid student/lecturer ID",
-      "name": "Student",
-      "price": 20,
+      "info": "",
+      "name": "Early bird",
+      "price": 30,
       "soldOut": false,
       "url": ""
     },
@@ -352,9 +352,9 @@
       "available": true,
       "currency": "€",
       "inDemand": true,
-      "info": "Hurry up!",
-      "name": "Early Bird",
-      "price": 30,
+      "info": "",
+      "name": "Regular",
+      "price": 60,
       "regular": true,
       "soldOut": false,
       "url": ""
@@ -364,8 +364,8 @@
       "currency": "€",
       "inDemand": false,
       "info": "",
-      "name": "Regular",
-      "price": 50,
+      "name": "Late bird",
+      "price": 90,
       "regular": true,
       "soldOut": false,
       "url": ""

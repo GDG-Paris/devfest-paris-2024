@@ -30,7 +30,7 @@ import {
   location,
   showForkMeBlockForProjectIds,
   title,
-  viewHighlights,
+  // viewHighlights,
 } from '../utils/data';
 import '../utils/icons';
 import { INCLUDE_SITE_TITLE, updateMetadata } from '../utils/metadata';
@@ -164,7 +164,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
         hide-logo
       >
         <div class="home-content" layout vertical center>
-          <lazy-image class="hero-logo" src="/images/logo.svg" alt="[[siteTitle]]"></lazy-image>
+          <lazy-image class="hero-logo" src="/images/devfest-logo.svg" alt="[[siteTitle]]"></lazy-image>
 
           <div class="info-items">
             <div class="info-item">[[city]]. [[dates]]</div>
@@ -172,10 +172,6 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>
 
           <div class="action-buttons" layout horizontal center-justified wrap>
-            <paper-button class="watch-video" on-click="playVideo">
-              <iron-icon icon="hoverboard:movie"></iron-icon>
-              [[viewHighlights]]
-            </paper-button>
             <paper-button on-click="scrollToTickets" primary invert>
               <iron-icon icon="hoverboard:ticket"></iron-icon>
               [[buyTicket]]
@@ -266,7 +262,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
   private city = location.city;
   private siteTitle = title;
   private dates = dates;
-  private viewHighlights = viewHighlights;
+  // // private viewHighlights = viewHighlights;
   private buyTicket = buyTicket;
   private heroSettings = heroSettings.home;
   private aboutBlock = aboutBlock;
