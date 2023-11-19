@@ -27,7 +27,12 @@
       "route": "c4p",
       "permalink": "https://conference-hall.io/public/event/pJRc2OqdUx5iAXkJgTEW",
       "label": "CFP"
-    }
+    },
+    {
+      "route": "faq",
+      "permalink": "/faq",
+      "label": "FAQ"
+    },
   ],
   "heroSettings": {
     "home": {
