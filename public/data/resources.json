@@ -86,9 +86,7 @@
   "codeOfConductBlock": {
     "organization": "DevFest",
     "form": "https://bit.ly/2RstTJ8",
-    "contacts": [
-      "Organizer Pritesh Bheemanee, contact@gdgparis.com"
-    ]
+    "contacts": ["Organizer Pritesh Bheemanee, contact@gdgparis.com"]
   },
   "aboutBlock": {
     "title": "What is DevFest Paris?",
