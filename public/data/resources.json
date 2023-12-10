@@ -57,11 +57,6 @@
           "name": "DevFest",
           "url": "https://devfest.withgoogle.com/",
           "newTab": true
-        },
-        {
-          "name": "Meet the Team",
-          "url": "https://devfest.gdgparis.com//team/",
-          "newTab": true
         }
       ]
     },
@@ -72,11 +67,6 @@
           "name": "Call for Papers",
           "url": "https://conference-hall.io/public/event/pJRc2OqdUx5iAXkJgTEW",
           "newTab": true
-        },
-        {
-          "name": "FAQs",
-          "url": "/faq",
-          "newTab": false
         }
       ]
     }

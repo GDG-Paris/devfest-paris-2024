@@ -24,6 +24,11 @@
       "label": "Home"
     },
     {
+      "route": "speakers",
+      "permalink": "/speakers",
+      "label": "Speakers"
+    },
+    {
       "route": "c4p",
       "permalink": "https://conference-hall.io/public/event/pJRc2OqdUx5iAXkJgTEW",
       "label": "CFP"

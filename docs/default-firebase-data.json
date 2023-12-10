@@ -258,58 +258,118 @@
     }
   },
   "speakers": {
-    "adrian_kajda": {
-      "bio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app was aquired by Sygic.",
-      "company": "Sygic",
-      "companyLogo": "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-      "country": "Creator of Fuelio app. Fuelio blah blah, Poland",
+    "jecelyn_yeen": {
+      "bio": "",
+      "company": "Google",
       "featured": true,
-      "name": "Adrian Kajda",
-      "photo": "/images/people/adrian_kajda.jpg",
-      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/adrian_kajda.jpg",
-      "pronouns": "he/him",
-      "shortBio": "Creator of Fuelio app. Fuelio was his hooby project started in 2012. Three years later the app wa...",
-      "socials": [],
-      "order": 0,
-      "title": "Product Manager/Developer"
+      "name": "Jecelyn Yeen",
+      "photo": "/images/people/jecelyn_yeen.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/jecelyn_yeen.jpeg",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/jecfish/",
+          "name": "LinkedIn"
+        }
+      ],
+      "badges": [
+        {
+          "name": "google",
+          "link": "https://www.linkedin.com/in/jecfish/",
+          "description": "Senior DevRel Engineer"
+        }
+      ],
+      "order": 0
     },
-    "aleksander_piotrowski": {
-      "bio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior positions from the day one as an Android programmer. Serial hackathon winner, or at least contender ;-)",
-      "company": "Applause",
-      "companyLogo": "/images/logos/gdg-lviv.svg",
-      "companyLogoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/logos/gdg-lviv.svg",
-      "country": "Warsaw, Poland",
+    "valentin_deleplace": {
+      "bio": "Valentin is a developer of cloud backends. He's into performance, algorithms, DB, UX, DX, and Go.",
+      "company": "Google",
       "featured": false,
-      "name": "Aleksander Piotrowski",
-      "photo": "/images/people/aleksander_piotrowski.jpg",
-      "photoUrl": "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/aleksander_piotrowski.jpg",
-      "pronouns": "he/him",
-      "shortBio": "Became a mobile developer after long run as a backend developer. Because of age, holding senior p...",
+      "name": "Valentin Deleplace",
+      "photo": "/images/people/valentin_deleplace.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/valentin_deleplace.jpeg",
+      "shortBio": "Valentin is a developer of cloud backends. He's into performance, algorithms, DB, UX, DX, and Go.",
       "socials": [
         {
           "icon": "twitter",
-          "link": "https://twitter.com/pelotasplus",
+          "link": "https://twitter.com/val_deleplace",
           "name": "Twitter"
-        },
-        {
-          "icon": "facebook",
-          "link": "http://facebook.com/pelotasplus",
-          "name": "Facebook"
-        },
-        {
-          "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/pelotasplus",
-          "name": "LinkedIn"
-        },
-        {
-          "icon": "instagram",
-          "link": "https://www.instagram.com/pelotasplus/",
-          "name": "Instagram"
         }
       ],
-      "order": 1,
-      "title": "Code Monkey"
+      "badges": [
+        {
+          "name": "google",
+          "link": "https://twitter.com/val_deleplace",
+          "description": "Happy path engineer"
+        }
+      ],
+      "order": 1
+    },
+    "florent_legras": {
+      "bio": "Head of Data chez Sfeir. Je travail depuis 10 ans dans l'écosystème data de startup ou de grand comptes.\nDepuis 2015 j'explore les technologies Cloud de Google et j'aide des entreprise à les mettre en places.\nJe suis Google Authorized Trainer et certifié Google Cloud Data Engineer\nGoogle Developer Expert depuis 2022",
+      "company": "SFEIR",
+      "featured": false,
+      "name": "Florent Legras",
+      "photo": "/images/people/florent_legras.png",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/florent_legras.png",
+      "shortBio": "Head of Data chez Sfeir. Je travail depuis 10 ans dans l'écosystème data de startup ou de grand comptes",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/florent_legras",
+          "name": "Twitter"
+        }
+      ],
+      "badges": [
+        {
+          "description": "Google Developer Expert",
+          "link": "https://developers.google.com/profile/u/legras-florent",
+          "name": "gde"
+        }
+      ],
+      "order": 2
+    },
+    "henry_lagarde": {
+      "bio": "Ingénieur logiciel chez Criteo, leader mondial en matière de retargeting et de publicité en ligne. Henry a créé plusieurs entreprises et a participé à des projets open source pour explorer le monde de la technologie et toutes ses possibilités. C'est dans cette optique que j'ai également essayé le DevOps chez Crédit Agricole, le plus grand groupe bancaire en France.",
+      "company": "Criteo",
+      "featured": false,
+      "name": "Henry Lagarde",
+      "photo": "/images/people/henry_lagarde.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/henry_lagarde.jpeg",
+      "shortBio": "Ingénieur logiciel chez Criteo, leader mondial en matière de retargeting et de publicité en ligne.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/florent_legras",
+          "name": "Twitter"
+        }
+      ],
+      "order": 3
+    },
+    "guillaume_laforge": {
+      "bio": "",
+      "company": "Google",
+      "featured": false,
+      "name": "Guillaume Laforge",
+      "photo": "/images/people/guillaume_laforge.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/guillaume_laforge.jpeg",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/glaforge",
+          "name": "Twitter"
+        }
+      ],
+      "badges": [
+        {
+          "name": "google",
+          "link": "https://twitter.com/glaforge",
+          "description": "Developer Advocate"
+        }
+      ],
+      "order": 4
     }
   },
   "team": [

@@ -40,7 +40,6 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           display: grid;
           grid-template-columns: 1fr;
           grid-gap: 16px;
-          min-height: 80%;
         }
 
         .speaker {
@@ -224,15 +223,10 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
               </div>
             </div>
 
-            <lazy-image
-              class="company-logo"
-              src="[[speaker.companyLogoUrl]]"
-              alt="[[speaker.company]]"
-            ></lazy-image>
+            <div>[[speaker.company]]</div>
 
             <div class="description">
               <h2 class="name">[[speaker.name]]</h2>
-              <div class="origin">[[speaker.country]]</div>
 
               <text-truncate lines="5">
                 <div class="bio">[[speaker.bio]]</div>
