@@ -249,12 +249,75 @@
   "sessions": {
     "101": {
       "complexity": "Beginner",
-      "description": "In this session, we will take a look at Windows and .NET support on Google Cloud Platform. We will build a simple ASP.NET app, deploy to Google Compute Engine and take a look at some of the tools and APIs available to .NET developers on Google Cloud Platform. ",
+      "description": "In this talk, Jecelyn from the Chrome DevTools team will walk you through the state of debugging and latest improvements in Chrome DevTools.",
       "language": "English",
-      "presentation": "https://speakerdeck.com/gdglviv/mete-atamel-windows-and-net-on-google-cloud-platform",
-      "speakers": ["aleksander_piotrowski", "adrian_kajda"],
+      "speakers": ["jecelyn_yeen"],
+      "tags": ["Web"],
+      "title": "Modern Web Debugging with DevTools"
+    },
+    "102": {
+      "complexity": "Beginner",
+      "description": "Voici comment j'ai implémenté le E2EE entre une appli Android et une webapp, de façon à ce que le serveur cloud n'ait aucun regard sur les données qui transitent. Les enjeux sont multiples pour préserver l'architecture cloud, l'ergonomie utilisateur \"seamless\", les performances, et maximiser la sécurité des données.",
+      "language": "French",
+      "speakers": ["valentin_deleplace"],
       "tags": ["Cloud"],
-      "title": "Windows and .NET on Google Cloud Platform "
+      "title": "Chiffrement de bout en bout dans une appli cloud et mobile"
+    },
+    "103": {
+      "complexity": "Beginner",
+      "description": "LangChain 🦜🔗 est bien plus qu'un simple framework pour développer des applications alimentées par des modèles de langage. C'est un outil polyvalent qui vous permet d'interagir avec vos APIs ou bases de données en utilisant un langage familier.<br>Au cours de cette présentation, nous explorerons comment, en quelques lignes de code, nous pouvons interagir avec une LLM et créer des applications complexes propulsées par l'IA.<br>La présentation comprendra les points suivants :<br>LangChain 🦜🔗et son écosystème.<br>Une démonstration en direct de la mise en place de notre application pour interagir avec les modèles de langage (LLM).",
+      "language": "French",
+      "speakers": ["henry_lagarde"],
+      "tags": ["AI/ML"],
+      "title": "LangChain 🦜🔗: Votre nouveau couteau suisse"
+    },
+    "104": {
+      "complexity": "Beginner",
+      "description": "Les Large Language Models (LLM) sont une nouvelle technologie puissante qui peut être utilisée pour une variété de tâches, notamment la génération de texte, la traduction de texte et la rédaction de différents types de contenu créatif. Cependant, les LLMs peuvent être difficiles à utiliser, en particulier pour les développeurs qui ne sont pas expérimentés en Python, la “lingua franca” de l'IA. Alors, qu'en est-il des développeurs Java ? Comment pouvons-nous tirer parti de l'IA générative ?<br><br>Cette présentation vous montrera comment utiliser les LLMs en Java sans avoir besoin de Python. Nous utiliserons l'API PaLM, fournie par les services Google Cloud Vertex AI, pour effectuer une variété de tâches, telles que la recherche dans de la documentation, la génération d'histoires pour enfants, la synthèse du contenu, l'extraction de mots-clés ou d'entités, et plus encore.",
+      "language": "French",
+      "speakers": ["guillaume_laforge"],
+      "tags": ["AI/ML"],
+      "title": "Generative AI par la pratique : cas concrets d’utilisation d’un LLM en Java, avec l’API PaLM"
+    },
+    "105": {
+      "complexity": "Beginner",
+      "description": "Heard of Software Supply Chain Security tools? Are you confused by how many acronyms, concepts, frameworks and tools exist in the open space? In this session we will go throughout a practical hands on guide for securing your software with Open Source tools. Security should be approached in a multilayer way. There is no such a thing as 100% secure but with defense in depth you can get to a place where your Supply Chain is fortified. This is the goal of this session, to give you the tools and guidance you need across the entire lifecycle of Software, from building and packaging your apps, to dependencies management and code scanning. We will also look into guidance for establishing trust across the entire process of software delivery and ensuring only the things you need to deploy to production actually get deployed. In this session we will cover tools like cosign and some other sigstore components, gitsign, kyverno and policy controllers for kubernetes.",
+      "language": "English",
+      "speakers": ["abdellfetah_sghiouar"],
+      "tags": ["Cloud"],
+      "title": "Practical guides for enhaching your Software Supply Chain Security"
+    },
+    "106": {
+      "complexity": "Intermediate",
+      "description": "Comment utiliser Langchain pour:<br><ul><li>injecter le contenu de documents dans un Index Vertex AI</li><li>et ensuite utiliser l’index pour faire des recherches et générer une réponse avec différents LLMs</li>",
+      "language": "English",
+      "speakers": ["wenjun_zhao", "oren_nadjar", "ludovic_emo"],
+      "tags": ["Cloud"],
+      "title": "Utiliser Google Cloud Vertex AI & Langchain avec plusieurs LLMs pour rechercher dans vos documents"
+    },
+    "107": {
+      "complexity": "Intermediate",
+      "description": "Get ahead in web performance! Let's learn about the newest strategies for optimizing the Core Web Vitals of your website in 2024. Discover the newest parameters shaping website metrics and dive deep into the new member: INP (Interaction to Next Paint). Keep your website's health in check and performance top-notch!",
+      "language": "English",
+      "speakers": ["manuela_castrillon"],
+      "tags": ["Web"],
+      "title": "Core Web Vitals Mastery in 2024"
+    },
+    "108": {
+      "complexity": "Intermediate",
+      "description": "Tel Néo vous vous sentez perdu dans la matrice ? Nous sommes immergés dans un océan croissant de données. Même si l'idée de la matrice peut sembler illusoire (ou peut-être pas), la question cruciale est : comment pouvons-nous naviguer et organiser efficacement ce déluge d'informations qui nous entoure ? Comment pouvons-nous comparer des images ou rechercher des correspondances entre des textes ? Bien que les bases vectorielles soient aujourd'hui à la mode grâce à l'émergence des LLMs, il est important de noter que ces bases existent depuis un certain temps.<br><br>Prenez la pilule rouge et plongez avec nous dans l'univers fascinant des bases vectorielles. Nous explorerons la théorie sous-jacente ainsi que différentes implémentations possibles, pour enfin illustrer nos propos avec plusieurs exemples d'utilisations concrets.",
+      "language": "English",
+      "speakers": ["florent_legras"],
+      "tags": ["Cloud"],
+      "title": "Mettre le monde en vecteur"
+    },
+    "109": {
+      "complexity": "Intermediate",
+      "description": "In a world where passwords have become the shackles of digital existence, a revolutionary solution emerges from the digital cosmos — Passkeys. Step into the future of cybersecurity, where the age-old struggles with forgotten passwords and relentless hacking attempts are but a distant memory. Join me on an intergalactic journey through the realms of authentication, as we unveil the secrets behind Passkeys and witness the demise of the password era. Picture a universe where accessing your digital realm is seamless, where the only key you need is uniquely yours and embedded in the very fabric of your being.<br><br>Prepare to be captivated as we delve into the problems of the past — the forgotten passwords, the vulnerabilities, the endless resets — and discover how Passkeys redefine the cybersecurity landscape. From the creation of your personalised Passkey to its integration into the cosmic dance of authentication protocols, we'll embark on a quest to liberate ourselves from the chains of conventional password woes.<br><br>Join the rebellion against the mundane and witness the birth of a new era. The stage is set, the codes are aligned, and the Passkeys await. Are you ready to unlock the future and bid farewell to the password dystopia? The adventure begins here, at the crossroads of technology and imagination. Fasten your seatbelts; we're about to warp into a password-free tomorrow!",
+      "language": "English",
+      "speakers": ["markandey_pathak"],
+      "tags": ["Web"],
+      "title": "Auth Wars - Rise of the Passkeys"
     }
   },
   "speakers": {
@@ -307,7 +370,7 @@
       "order": 1
     },
     "florent_legras": {
-      "bio": "Head of Data chez Sfeir. Je travail depuis 10 ans dans l'écosystème data de startup ou de grand comptes.\nDepuis 2015 j'explore les technologies Cloud de Google et j'aide des entreprise à les mettre en places.\nJe suis Google Authorized Trainer et certifié Google Cloud Data Engineer\nGoogle Developer Expert depuis 2022",
+      "bio": "Head of Data chez Sfeir. Je travail depuis 10 ans dans l'écosystème data de startup ou de grand comptes.<br>Depuis 2015 j'explore les technologies Cloud de Google et j'aide des entreprise à les mettre en places.<br>Je suis Google Authorized Trainer et certifié Google Cloud Data Engineer<br>Google Developer Expert depuis 2022",
       "company": "SFEIR",
       "featured": false,
       "name": "Florent Legras",
@@ -370,6 +433,112 @@
         }
       ],
       "order": 4
+    },
+    "abdellfetah_sghiouar": {
+      "bio": "",
+      "company": "Google",
+      "featured": false,
+      "name": "Abdellfetah Sghiouar",
+      "photo": "/images/people/abdellfetah_sghiouar.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/abdellfetah_sghiouar.jpeg",
+      "shortBio": "",
+      "socials": [],
+      "badges": [
+        {
+          "name": "google",
+          "link": "https://www.linkedin.com/in/sabdelfettah/",
+          "description": "Senior Cloud Developer Advocate"
+        }
+      ],
+      "order": 5
+    },
+    "wenjun_zhao": {
+      "bio": "",
+      "company": "Pyl Tech",
+      "featured": false,
+      "name": "Wenjun Zhao",
+      "photo": "/images/people/wenjun_zhao.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/wenjun_zhao.jpeg",
+      "shortBio": "",
+      "socials": [],
+      "badges": [],
+      "order": 6
+    },
+    "oren_nadjar": {
+      "bio": "",
+      "company": "Pyl Tech",
+      "featured": false,
+      "name": "Oren Nadjar",
+      "photo": "/images/people/oren_nadjar.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/oren_nadjar.jpeg",
+      "shortBio": "",
+      "socials": [],
+      "badges": [],
+      "order": 7
+    },
+    "ludovic_emo": {
+      "bio": "",
+      "company": "Pyl Tech",
+      "featured": false,
+      "name": "Ludovic Emo",
+      "photo": "/images/people/ludovic_emo.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/ludovic_emo.jpeg",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/ludovicemo",
+          "name": "Linkedin"
+        }
+      ],
+      "badges": [],
+      "order": 8
+    },
+      "manuela_castrillon": {
+      "bio": "",
+      "company": "Uber",
+      "featured": false,
+      "name": "Manuela Castrillon",
+      "photo": "/images/people/manuela_castrillon.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/manuela_castrillon.jpeg",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "github",
+          "link": "https://github.com/manucastrillonm",
+          "name": "GitHub"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/manucastrillonm",
+          "name": "Twitter"
+        }
+      ],
+      "badges": [],
+      "order": 9
+    },
+    "markandey_pathak": {
+      "bio": "I'm Markandey Pathak, an Expert Engineer and Vice President at JP Morgan & Chase with a specialisation in the JavaScript ecosystem. I have given talks on a wide range of topics related to technology and development at numerous conferences, sharing my knowledge and insights with audiences around the world.",
+      "company": "JP Morgan & Chase",
+      "featured": false,
+      "name": "Markandey Pathak",
+      "photo": "/images/people/markandey_pathak2.jpeg",
+      "photoUrl": "https://storage.googleapis.com/devfest-paris-2024.appspot.com/images/people/markandey_pathak2.jpeg",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "github",
+          "link": "https://github.com/markandeyp",
+          "name": "GitHub"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/i_markandey",
+          "name": "Twitter"
+        }
+      ],
+      "badges": [],
+      "order": 10
     }
   },
   "team": [
